@@ -1,0 +1,47 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "description": "###",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "@nuxtjs/style-resources": "^0.1.1",
+    "nuxt": "^2.3.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/recommended"
+    ],
+    "plugins": [
+      "vue"
+    ],
+    "rules": {
+      "semi": [
+        2,
+        "never"
+      ],
+      "no-console": "error",
+      "vue/max-attributes-per-line": "off"
+    }
+  }
+}

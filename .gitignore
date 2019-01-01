@@ -1,0 +1,17 @@
+# /
+DATA.md
+*.log
+.env
+# /app
+node_modules/
+.nuxt/
+
+# /wordpress
+cms/*
+!cms/wp-content/
+cms/wp-content/index.php
+cms/wp-content/themes/index.php
+cms/wp-content/plugins/akismet/
+cms/wp-content/plugins/*.php
+cms/wp-content/uploads/
+cms/wp-content/themes/twenty*/
