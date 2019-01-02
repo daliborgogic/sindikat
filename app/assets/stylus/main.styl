@@ -1,0 +1,62 @@
+html
+  height 100%
+  box-sizing border-box
+
+*
+*::before
+*::after
+  box-sizing inherit
+
+a
+  -webkit-tap-highlight-color transparent
+
+body
+  position relative
+  height 100%
+  margin 0
+  font-family -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+  text-rendering optimizeLegibility
+  -webkit-font-smoothing antialiased
+  overflow-y scroll
+
+html
+body
+  background-color #fff
+  color #000
+
+svg {
+  shape-rendering: crispEdges;
+}
+
+svg path, svg circle, svg polygon, svg rect {
+  shape-rendering: geometricprecision;
+}
+
+.twitter-tweet {
+  margin: 0 auto;
+}
+
+
+::selection {
+  background-color: #79FFE1;
+  color: #000;
+}
+::-moz-selection {
+  background-color: #79FFE1;
+  color: #000;
+}
+
+
+pre {
+  color: #000;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  font-size: 0.95em;
+  line-height: 1.4em;
+  tab-size: 4;
+  hyphens: none;
+  overflow: auto;
+}

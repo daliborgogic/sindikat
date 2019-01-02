@@ -13,14 +13,18 @@
 
 <style lang=stylus scoped>
 nav
-  max-width 960px
-  margin 0 auto
+  max-width 512px
+  margin 0 auto 64px
   height 64px
   display flex
   align-items center
+  position relative
+a
+  position fixed
+  top 16px
 svg
   width 50px
   height auto
   vertical-align middle
-  opacity 0.3
+  // opacity 0.3
 </style>
