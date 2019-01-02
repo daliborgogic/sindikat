@@ -35,5 +35,7 @@ $ pm2 start process.json
 ```
 
 ### License
+
 [MIT](https://github.com/daliborgogic/sindikat/blob/master/LICENSE)
-Copyright (c) 2018-2019, Dalibor Gogic
+
+Copyright (c) 2018-present, Dalibor Gogic
